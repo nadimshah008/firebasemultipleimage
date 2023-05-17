@@ -1,0 +1,105 @@
+* {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 20px;
+}
+
+.inp {
+  display: none;
+}
+
+.progressBar {
+  width: 250px;
+  background: rgb(196, 193, 193);
+  padding: 15px 20px;
+  position: relative;
+}
+
+.progress {
+  height: 100%;
+  width: 0%;
+  background: linear-gradient(75deg, rgb(11, 65, 173), rgb(179, 10, 165));
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.img {
+  height: 200px;
+  width: 250px;
+  margin: 5px;
+  border: 1px solid crimson;
+  -o-object-fit: fill;
+     object-fit: fill;
+  display: none;
+}
+
+.selectImage {
+  background: crimson;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 10px;
+}
+
+.upload {
+  background: green;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 10px;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  margin: 10px 0;
+  box-shadow: 0 0 10px 2px rgb(8, 7, 7);
+}
+
+.metaData {
+  display: flex;
+}
+
+.filedata {
+  background: cadetblue;
+  padding: 10px 15px;
+  font-size: 14px;
+  max-width: 100px;
+  text-overflow: ellipsis;
+  border-radius: 10px;
+  display: none;
+  overflow: hidden;
+  margin: 5px;
+}
+
+.images {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.imageUpload {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(360deg, rgb(21, 119, 240), rgb(131, 16, 114));
+}
+
+.loading {
+  display: none;
+}
+
+.completeMsg {
+  color: white;
+}/*# sourceMappingURL=index.css.map */
